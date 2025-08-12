@@ -1,3 +1,9 @@
+def md_header():
+   return '|pair Number | Major color | Minor Color |\n|'
+
+def md_format_row(pair_number,major_color, minor_color):
+   return f'|{pair_number}|{major_color}|{minor_color}|\n'
+
 def printReferenceManual():
   print('Reference Manual')
   print(md_header(), end='')
