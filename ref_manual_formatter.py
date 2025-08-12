@@ -1,3 +1,4 @@
+from Color_Conversion import get_color_from_pair_number , MAJOR_COLORS , MINOR_COLORS
 def md_header():
    return '|pair Number | Major color | Minor Color |\n|'
 
